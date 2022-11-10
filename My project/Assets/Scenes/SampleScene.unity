@@ -936,7 +936,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736925446}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a319a129b74af5f4aa2499113e9c18e0, type: 3}
   m_Name: 
@@ -2518,7 +2518,7 @@ MonoBehaviour:
   radius: 2
   offset: 5
   targetToGuard: {fileID: 1273579613}
-  maxDistanceToTarget: 15
+  maxDistanceToTarget: 18
   minDistanceToTarget: 5
   targetToPursue: {fileID: 1557096220}
 --- !u!1 &1975483976
@@ -2865,6 +2865,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7506102577001617519, guid: bf5ce39f0a60b004ea881433be0448fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976545175759187407, guid: bf5ce39f0a60b004ea881433be0448fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976545175759187407, guid: bf5ce39f0a60b004ea881433be0448fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976545175759187407, guid: bf5ce39f0a60b004ea881433be0448fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976545175759187407, guid: bf5ce39f0a60b004ea881433be0448fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976545175759187407, guid: bf5ce39f0a60b004ea881433be0448fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
