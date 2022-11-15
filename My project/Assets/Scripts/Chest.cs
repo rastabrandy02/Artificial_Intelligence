@@ -50,7 +50,7 @@ public class Chest : MonoBehaviour
                 //}
 
                 top.transform.Rotate(-5.0f, 0.0f, 0.0f);
-                Debug.Log(top.transform.localRotation.eulerAngles.x);
+                //Debug.Log(top.transform.localRotation.eulerAngles.x);
                 //Debug.Log(i);
 
                 yield return new WaitForSeconds(0.05f);

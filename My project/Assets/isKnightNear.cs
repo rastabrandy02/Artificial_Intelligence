@@ -7,10 +7,14 @@ using Pada1.BBCore.Framework;
 [Help("Checks whether Knight is near the Whitch.")]
 public class IsKnightNear : ConditionBase
 {
+
+    [InParam("target")]
+    public GameObject knight;
+    [InParam("self")]
+    public GameObject gameObject;
     public override bool Check()
     {
-        GameObject whitch = GameObject.Find("Whitch");
-        GameObject knight = GameObject.Find("Knight");
-        return Vector3.Distance(whitch.transform.position, knight.transform.position) < 10f;
+        //GameObject knight = GameObject.Find("Knight");
+        return !(Vector3.Distance(gameObject.transform.position, knight.transform.position) < 10f);
     }
 }

@@ -8,13 +8,24 @@ using Pada1.BBCore.Framework; // BasePrimitiveAction
 public class SpawnGhost : BasePrimitiveAction
 {
     [InParam("game object")]
+
+   
     
     public GameObject ghost;
+    public int maxInstances = 3;
+    int currentInstances = 0;
 
     public override TaskStatus OnUpdate()
     {
+        if(currentInstances < maxInstances)
+        {
+            Vector3 spawnPos = new Vector3(25.0f, 5.0f, 120.0f);
+            Quaternion spawnRot = Quaternion.identity;
+            GameObject.Instantiate(ghost, spawnPos, spawnRot);
+
+            currentInstances++;
+        }
         
-        GameObject.Instantiate(ghost);
         return TaskStatus.COMPLETED;
     }
 }
