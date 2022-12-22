@@ -1,0 +1,65 @@
+{
+    "Doctor": {
+        "checkpoints": [
+            {
+                "steps": 500022,
+                "file_path": "results\\Doctor\\Doctor\\Doctor-500022.onnx",
+                "reward": null,
+                "creation_time": 1671696592.6370862,
+                "auxillary_file_paths": [
+                    "results\\Doctor\\Doctor\\Doctor-500022.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\Doctor\\Doctor\\Doctor-500022.onnx",
+                "reward": null,
+                "creation_time": 1671696648.4982097,
+                "auxillary_file_paths": [
+                    "results\\Doctor\\Doctor\\Doctor-500022.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\Doctor\\Doctor\\Doctor-500022.onnx",
+                "reward": null,
+                "creation_time": 1671696741.7874694,
+                "auxillary_file_paths": [
+                    "results\\Doctor\\Doctor\\Doctor-500022.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\Doctor\\Doctor\\Doctor-500022.onnx",
+                "reward": null,
+                "creation_time": 1671696948.2511046,
+                "auxillary_file_paths": [
+                    "results\\Doctor\\Doctor\\Doctor-500022.pt"
+                ]
+            },
+            {
+                "steps": 515254,
+                "file_path": "results\\Doctor\\Doctor\\Doctor-515254.onnx",
+                "reward": null,
+                "creation_time": 1671697314.9516678,
+                "auxillary_file_paths": [
+                    "results\\Doctor\\Doctor\\Doctor-515254.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 515254,
+            "file_path": "results\\Doctor\\Doctor.onnx",
+            "reward": null,
+            "creation_time": 1671697314.9516678,
+            "auxillary_file_paths": [
+                "results\\Doctor\\Doctor\\Doctor-515254.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.10.2+cpu"
+    }
+}
